@@ -1,0 +1,21 @@
+org: jlpoklay
+app: whitelist-workers
+service: whitelist-workers
+
+frameworkVersion: '3'
+
+custom:
+  functionsBasePath: functions
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  allow:
+    handler: allow.index
+  terminate:
+    handler: terminate.index
+  
+plugins:
+  - serverless-functions-base-path

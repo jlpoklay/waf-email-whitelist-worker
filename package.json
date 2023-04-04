@@ -1,0 +1,26 @@
+{
+  "name": "unilab-whitelist-worker",
+  "version": "1.0.0",
+  "description": "<!-- title: 'AWS NodeJS Example' description: 'This template demonstrates how to deploy a NodeJS function running on AWS Lambda using the traditional Serverless Framework.' layout: Doc framework: v3 platform: AWS language: nodeJS priority: 1 authorLink: 'https://github.com/serverless' authorName: 'Serverless, inc.' authorAvatar: 'https://avatars1.githubusercontent.com/u/13742415?s=200&v=4' -->",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-waf": "^3.112.0",
+    "@aws-sdk/client-wafv2": "^3.112.0",
+    "@aws-sdk/lib-dynamodb": "^3.113.0",
+    "install": "^0.13.0",
+    "ip": "^1.1.8",
+    "lodash.merge": "^4.6.2",
+    "mailparser": "^3.5.0",
+    "moment": "^2.29.3",
+    "npm": "^8.12.2",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "serverless-functions-base-path": "^1.0.32"
+  }
+}
