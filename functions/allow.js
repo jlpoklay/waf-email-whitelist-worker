@@ -10,7 +10,7 @@ const wafv2 = new WAFV2Client({ region: "us-east-1" });
 
 const client = new DynamoDBClient({ region: 'us-east-1'});
 const ddbDocClient = DynamoDBDocumentClient.from(client);
-const tableName = 'unilab-ip-whitelist'
+const tableName = 'ip-whitelist'
 
 const ipRegex = /(?<=\[\[\[)(.*?)(?=\]\]\])/g
 
